@@ -1,0 +1,18 @@
+{
+  "pack": {
+	"min_format": [121.0],
+	"max_format": [121.0],
+    "description": [
+      {
+        "text": "Madbug's Fishing Enchants",
+        "color": "#56be4e"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "1.0 for Matcha 1.12.7+",
+        "color": "#908b8b"
+		}]
+	}
+}
