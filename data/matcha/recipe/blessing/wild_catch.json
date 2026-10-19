@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"KHK",
+		"KBK",
+		"FFF"
+	],
+	"key": {
+		"B": "minecraft:enchanted_book",
+        "F": "minecraft:nautilus_shell",
+		"H": "minecraft:trident",
+		"K": "minecraft:kelp"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"matcha:wild_catch": 1
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.aristaeus",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_aristaeus"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

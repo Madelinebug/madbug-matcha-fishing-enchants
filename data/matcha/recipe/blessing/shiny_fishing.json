@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"FHF",
+		"fBf",
+		"FbF"
+	],
+	"key": {
+		"B": "minecraft:enchanted_book",
+        "F": "minecraft:kelp",
+        "b": "minecraft:golden_apple",
+		"H": "minecraft:turtle_scute",
+		"f": "minecraft:fishing_rod"
+	},
+	"result": {
+		"components": {
+			"minecraft:stored_enchantments": {
+				"matcha:shiny_fishing": 1
+			},
+			"minecraft:item_name": {
+				"translate": "item.kleispack.blessing"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.blessing.triton",
+					"color": "dark_gray",
+					"italic": false
+				}
+			],
+			"minecraft:item_model": "matcha:blessing_triton"
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}

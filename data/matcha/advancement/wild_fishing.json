@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "fished_successfully": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "rod": {
+          "enchantments": [
+            {
+              "enchantment": "matcha:wild_catch",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "matcha:wild_catch_function"
+  }
+}

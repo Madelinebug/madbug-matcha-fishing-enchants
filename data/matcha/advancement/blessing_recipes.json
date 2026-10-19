@@ -1,0 +1,22 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"made_hell_bound_book": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:blessing/hell_bound_book"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"made_hell_bound_book"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"matcha:blessing/wild_catch",
+            "matcha:blessing/shiny_fishing"
+		]
+	}
+}

@@ -1,0 +1,29 @@
+{
+    "description": "Shiny Fishing",
+    "supported_items": "#minecraft:enchantable/fishing",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 0,
+      "per_level_above_first": 0
+    },
+    "anvil_cost": 1,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "id": "shiny_fishing",
+          "attribute": "minecraft:luck",
+          "amount": 1,
+          "operation": "add_value"
+        }
+      ]
+    }
+  }
+  
